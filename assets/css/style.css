@@ -9,8 +9,6 @@
 header {
     /* background-color: red; */
     color: black;
-
-    border: 5px solid black
 }
 
 html {
@@ -56,51 +54,44 @@ a {
 
 /* JUMBO */
 
+#jumbo {
+    background-color: lightskyblue;
+    padding-inline: 30px;
+}
+
 .container{
     width: 80%;
     margin: 0 auto;
 }
 
-section {
-    border: 1px dashed black;
+.section1 {
+    /* border: 5px dashed black; */
     padding-block: 20px;
     /* background-color: black; */
     background-color: lightskyblue;
 
-    height: 50vh;
-
-   
+    height: 45vh; 
 }
 
 section img{
-    /* background-color: lightsalmon; */
     height: 50vh;
 }
 
 .flex .section-text{
-    /* background-color: lightseagreen; */
     flex-direction: column;
 
-    flex-basis: 40%;
-
-    gap: 90px;
-    /* justify-content: space-between; */
-    padding: 30px;
-}
-
-.flex .img-text{
-    display: flex;
-}
-
-.flex .img-text .container {
     flex-basis: 60%;
+}
+
+.flex .img-text .jumbo {
+    flex-direction: column;
+    flex-basis: 40%;
 }
 
 div > p,
 h1 {
     margin: 10px;
-    line-height: 25px;
-    
+    line-height: 25px;  
 }
 
 .start {
@@ -115,3 +106,10 @@ h1 {
 
     text-align: center;
 }
+
+section i {
+    margin: 10px;
+    padding: 20px;
+}
+
+/* / JUMBO / */
