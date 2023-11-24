@@ -8,7 +8,7 @@ header {
     /* background-color: red; */
     color: black;
 
-    border: 5px solid black
+    /* border: 5px solid black */
 }
 
 html {
@@ -20,13 +20,32 @@ html {
 }
 
 .flex .left {
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     /* background-color: yellow; */
-    gap: 30px;
+    gap: 40px;
     margin: 10px;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+.flex .right {
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: yellow; */
+    gap: 40px;
+    margin-left: 480px;
+}
+
+.text {
+    background-color: #0061FF;
+    color: white;
+
+    height: 25px;
+    width: 50px;
+    line-height: 27px;
+    text-align: center;
 }
