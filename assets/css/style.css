@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    /* background-color: red; */
+    color: black;
+
+    border: 5px solid black
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex .left {
+    justify-content: space-between;
+    /* background-color: yellow; */
+    gap: 30px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
