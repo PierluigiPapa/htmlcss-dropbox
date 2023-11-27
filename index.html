@@ -15,66 +15,60 @@
     <title>Dropbox</title>
 </head>
 <body>
-
+    
+    <!-- HEADER -->
     <header>
-        <div class="flex">
-            <!-- Nav sinistra -->
-            <nav class="flex left">
-                <img src="./assets/img/logo-small.png" alt="">
-                <a href="">Perché Dropbox</a>
-                <a href="">Funzioni</a>
-                <a href="">Piani e Prezzi</a>   
-            </nav>
-            <!-- // Nav sinistra // -->
+        <nav class="nav-left">
+            <ul>
+                <li><a href="#"><img src="./assets/img/logo-small.png" alt="Logo"></a></li>
 
-            <!-- Nav destra -->
-            <nav class="flex right">
-                <a href="">Supporto</a>
-                <a href="">Contatta l'ufficio vendite</a>
-                <a href="">Accedi</a>
-                <span class="text">Inizia</span>
-            </nav>
-            <!-- // Nav destra // -->
-        </div>
+                <li><a href="#">Perché Dropbox</a></li>
+                <li><a href="#">Funzioni</a></li>
+                <li><a href="#">Piani e Prezzi</a></li>
+            </ul>
+        </nav>
+
+        <nav class="nav-right">
+            <ul>
+                <li><a href="#">Supporto</a></li>
+                <li><a href="#">Contatta l'ufficio vendite</a></li>
+                <li><a href="#">Accedi</a></li>
+                <li><a class="btn btn-blue" href="#">Inizia</a></li>
+            </ul>
+        </nav>
     </header>
+    <!-- HEADER -->
 
     <main>
-        <!-- Jumbo -->
+        <!-- JUMBO -->
         <section id="jumbo">
-            <h1>Tutto ciò che ti serve per il <br>
-                lavoro, in un unico posto</h1>
-            <div class="flex">
-                <div class="section-text container">
-                    <p>
-                        Finalmente tutti i tuoi strumenti, contenuti e <br>
-                        collaboratori sono accessibili dallo stesso posto. <br> 
-                        Dropbox Business è più di uno spazio di <br>
-                        archiviazione sicuro: è un modo intelligente <br>
-                        e integrato per ottimizzare il flusso di lavoro <br>
-                        esistente.
-                    </p>
-
-                    <span class="start">Inizia la tua prova gratuita</span>
-    
-                    <p>
-                        Annulla in qualsiasi momento
-                    </p>
-    
-                    <i class="fa-solid fa-arrow-down fa-2xl" style="color: #000000;"></i>
-                </div>
-    
-                <div class="img-text container">
-                    <img src=".//assets/img/jumbo.png" alt="jumbo">
-                </div>
-            </div>
-        </section>
+            <div class="container">
+                <h1>Tutto ciò che serve per il lavoro in un unico posto</h1>
+                    <div class="flex">
+                        <div class="w-30">
+                            <p> Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso
+                                posto. Dropbox Business è più di uno spazio di archiviazione siicuro: è un modo intelligente
+                                e
+                                integrato per ottimizzare il flusso di lavoro esistente.
+                            </p>
         
-        <!-- // Jumbo // -->
+                            <a class="btn btn-blue" href="">Inizia la prova gratuita</a>
+        
+                            <p>Annulla in questo momento</p>
+        
+                            <i class="fa-solid fa-arrow-down" style="color: #000000;"></i>
+        
+                        </div>
+        
+                        <div class="w-70">
+                            <img src="./assets/img/jumbo.png" alt="Jumbo foto">
+                        </div>
+                    </div>
+        </section>
+        <!-- JUMBO -->
 
-
-        <!-- Payment -->
-        <section class="container1">
-            <h2>Trova il piano business che fa per te</h2>
+        <div class="container">
+            <h2>Trova il business che fa per te</h2>
 
             <div class="flex pay">
                 <div>
@@ -86,32 +80,8 @@
                     <label for="year">Fatturazione annuale</label>
                 </div>
             </div>
-
-            <div class="flex">
-                <div class="option">
-                    <div class="red">
-                        <i class="fa-solid fa-user" style="color: #000000;"></i>
-                        <h3>Singolo</h3>
-                    </div>
-                </div>
-    
-                <div class="option">
-                    <i class="fa-solid fa-user" style="color: #000000;"></i>
-                    <h3>Singolo</h3>
-                </div>
-    
-                <div class="option">
-                    <i class="fa-solid fa-user" style="color: #000000;"></i>
-                    <h3>Singolo</h3>
-                </div>
-            </div>
-        </section>
-
-             <!-- // Payment // -->
-
-        
-
+        </div>
     </main>
-    
+
 </body>
 </html>

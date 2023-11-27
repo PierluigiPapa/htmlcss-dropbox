@@ -4,27 +4,36 @@
     box-sizing: border-box;
 }
 
-/* HEADER  */
-
-header {
-    /* background-color: red; */
-    color: black;
-}
-
 html {
     font-family: 'Open Sans', sans-serif;
 }
 
-.flex {
+/* HEADER  */
+
+header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: white;
+
+    padding: 20px;
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
-.flex .left {
-    justify-content: space-around;
+header nav ul {
+    display: flex;
     align-items: center;
-    /* background-color: yellow; */
-    gap: 40px;
-    margin: 10px;
+
+    gap: 20px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 a {
@@ -32,112 +41,66 @@ a {
     color: black;
 }
 
-.flex .right {
-    justify-content: space-around;
-    align-items: center;
-    /* background-color: yellow; */
-    gap: 40px;
-    margin-left: 480px;
+.btn {
+    padding: 3px;
 }
 
-.text {
-    background-color: #0061FF;
+.btn-blue {
+    background-color: #2665EF;
     color: white;
-
-    width: 50px;
-    line-height: 27px;
-
-    text-align: center;
 }
 
-/* / HEADER / */
+/* // HEADER // */
 
 /* JUMBO */
 
-#jumbo {
-    background-color: lightskyblue;
-    padding-inline: 30px;
-    padding-top: 30px;
-}
-
-.container{
-    width: 80%;
-    margin: 0 auto;
-}
-
-section {
-    /* border: 5px dashed black; */
-    padding-block: 20px;
-    /* background-color: black; */
-
-    height: 70vh;
-}
-
-section img{
-    height: 55vh;
-}
-
-#jumbo .section-text{
-    flex-basis: 30%;
-}
-
-.flex .img-text .jumbo {
-    flex-direction: column;
-    flex-basis: 40%;
+main #jumbo {
+    background-color: #B7D0E8;
+    padding-top: 100px;
 }
 
 h1 {
-    font-size: 50px;
-    line-height: 60px;
-    margin-bottom: 10px;
+    font-size: 60px;
 }
 
-.start {
-    background-color: #0061FF;
-    color: white;
-
-    height: 200px;
-    width: 70px;
-
-    line-height: 27px;
-
-    text-align: center;
+p {
+    line-height: 20px;
 }
 
-i {
-    margin-top: 130px
-}
-
-/* / JUMBO / */
-
-/* PAYMENT */
-
-
-.container1 {
+.container {
     width: 80%;
     margin: 0 auto;
-    margin-top: 100px;
-
-    background-color: lightgreen;
-
 }
 
-h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
+img {
+    width: 100%;
+    display: block;
 }
 
-.pay {
-    gap: 40px;
+.flex {
+    display: flex;
 }
 
+.w-30 {
+    flex-basis: 30%;
+}
 
-/* / PAYMENT / */
+.w-70 {
+    flex-basis: 70%;
+}
 
-.flex .option {
-    margin-top: 50px;
+main #jumbo .flex .w-30 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
 
-    border: 1px solid gray;
-    width: calc((100% / 3));
-    flex-direction: row;
+main #jumbo .flex {
+    position: relative;
+    bottom: -50px;
+}
+
+main #jumbo .flex .w-30 .fa-arrow-down {
+    height: 50px;
 }
