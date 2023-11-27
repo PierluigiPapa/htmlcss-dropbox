@@ -125,7 +125,6 @@ main #jumbo .flex .w-30 .fa-arrow-down {
 
 .main-container .radiocheck {
     padding-top: 30px;
-    gap: 20px;
 }
 
 /* // BUSINESS // */
@@ -160,19 +159,48 @@ main #jumbo .flex .w-30 .fa-arrow-down {
     justify-content: center;
 
     gap: 10px;
+    padding-top: 10px;
 }
 
 .top-card {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 10px;
+    padding: 7px;
 }
 
 .top-card ul li {
     list-style-type: none;
+    padding: 10px;
+    margin-top: 10px;
+
+    font-size: 14px;
 }
 
 hr {
     color: gray;
+}
+
+/* // CARDS // */
+
+#container-team {
+    /* background-color: lightsalmon; */
+    /* border: 1px solid black; */
+    border: 1px solid gray;
+    
+    margin-top: 30px;
+}
+
+.teams {
+    width: 100px;
+    /* background-color: lightseagreen; */
+    border: 1px solid gray;
+
+}
+
+.top-team {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 7px;
 }
