@@ -141,7 +141,6 @@ main #jumbo .flex .w-30 .fa-arrow-down {
 }
 
 .cards {
-    width: 100px;
     /* background-color: lightseagreen; */
     border: 1px solid gray;
 
@@ -250,4 +249,61 @@ hr {
     text-decoration: underline;
 }
 
-/* PARTNER */
+/* // PARTNER // */
+
+/* OPERATIONS */
+
+.title-operations {
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+#container-operations {
+    width: 100%;
+
+    display: flex;
+    gap: 40px;
+}
+
+.figure {
+    /* background-color: lightseagreen; */
+    /* border: 1px solid gray; */
+
+    width: calc(100% / 3);
+
+    flex-direction: column;
+}
+
+.top-figure {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-inline: 5%;
+}
+
+#container-operations-1 {
+    width: 100%;
+
+    display: flex;
+    gap: 40px;
+}
+
+.figure-1 {
+    /* background-color: lightseagreen; */
+    /* border: 1px solid gray; */
+
+    width: calc(100% / 3);
+
+    flex-direction: column;
+
+    padding-top: 20px;
+}
+
+.top-figure-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-inline: 5%;
+}
+
+/* // OPERATIONS // */
