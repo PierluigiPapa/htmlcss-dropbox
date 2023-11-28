@@ -194,9 +194,14 @@ hr {
     margin-top: 50px;
 }
 
-#container-team .left {
+.left {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.right {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     padding: 20px;
 }
