@@ -184,23 +184,19 @@ hr {
 /* // CARDS // */
 
 #container-team {
-    /* background-color: lightsalmon; */
-    /* border: 1px solid black; */
+    background-color: lightsalmon;
     border: 1px solid gray;
     
-    margin-top: 30px;
-}
-
-.teams {
-    width: 100px;
-    /* background-color: lightseagreen; */
-    border: 1px solid gray;
-
-}
-
-.top-team {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+
     padding: 7px;
+    margin-top: 50px;
+}
+
+#container-team .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
 }
