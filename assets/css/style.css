@@ -195,6 +195,33 @@ hr {
     margin-top: 50px;
 }
 
+.row-1 {
+    /* background-color: red; */
+
+    /* border: 1px solid gray; */
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    gap: 10px;
+}
+
+.row-1 i {
+    padding-top: 1px;
+}
+
+.btn-blue-1 {
+    background-color: #2665EF;
+    color: white;
+    width: 210px;
+    height: 40px;
+
+    text-align: center;
+    line-height: 35px;
+}
+
+
 .left {
     display: flex;
     justify-content: space-between;
@@ -478,11 +505,45 @@ hr {
     font-size: 40px;
 }
 
+#container-question .fa-chevron-down {
+    color: red;
+}
+
 /* // QUESTIONS // */
+
+/* FOOTER */
 
 footer {
     background-color: black;
-    height: 70vh;
+    height: 65vh;
 
     color: white;
 }
+
+#footer-col {
+    display: flex;
+    justify-content: space-between;
+
+    padding-block: 50px;
+    width: 60%;
+    margin-left: 300px;
+}
+
+.col ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    margin-top: 20px;
+
+    list-style: none;
+}
+
+.language {
+    color: gray;
+
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+/* // FOOTER // */
