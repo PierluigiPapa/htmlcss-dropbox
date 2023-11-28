@@ -183,8 +183,10 @@ hr {
 
 /* // CARDS // */
 
+/* TEAM */
+
 #container-team {
-    background-color: lightsalmon;
+    /* background-color: lightsalmon; */
     border: 1px solid gray;
     
     display: flex;
@@ -205,3 +207,47 @@ hr {
     flex-direction: column;
     padding: 20px;
 }
+
+/* // TEAM // */
+
+/* PARTNER */
+
+#container-partner {
+    display: flex;
+
+    padding: 7px;
+    margin-top: 70px;
+}
+
+.img-partner {
+   width: 100%;
+}
+
+.text-partner {
+    flex-basis: 80%;
+    flex-direction: column;
+
+    padding-inline: 5%;
+    padding-top: 5%;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.text-partner p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.white {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.now {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* PARTNER */
